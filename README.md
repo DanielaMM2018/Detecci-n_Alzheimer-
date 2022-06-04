@@ -23,5 +23,5 @@ Las imágenes mencionadas para realizar el entrenamiento y validación son tomad
 ## Desarrollo
 Para lo que se desea se realizo una red neuronal, donde primero se adquieron 4537 archivos de el dataset de ADNI, donde tomo solo un corte de estos donde se dejo una matriz de 4537 filas y 1600 caracteristicas, para el entrenamiento se guardaron los IDs de en el que se proceso la matriz, se guardo y mediante un proceso de busqueda se adecuo con ese orden las etiquetas para el futuro entrenamiento. Toda esta información se clasifico en un CSV para un facil manejo al momento de realizar el entrenamiento y validación. 
 
-Despues de ello, se importo el CSV principal que tiene tanto ID, etiqueda y matriz. 
+Despues de ello, se importo el CSV principal que tiene tanto ID, etiqueda y matriz. Luego se verifico y adecuaron los datos nulos. Se siguio con reducir las etiquetas en binaro, donde quedo como paciente sano (CN) y pacientes con Alzheimer (EA). Le siguio la partición donde 90% se dejo como entrenamiento y 10% de validación, se normalizo, se redujo mediante PCA y en sus ultimos pasos se creo la red neuronal con keras y se optimizo con GridSearch usan validación cruzada.Ya con eso se finalizo mediante el uso de Accuracy y MCC
 
