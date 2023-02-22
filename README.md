@@ -31,8 +31,5 @@ El uso de PCA fue bastante util, redujo de 1600 a 127, permitiendo un proceso co
 ##Conclusiones 
 Este metodo ha dado unos resultados pasables teniedo en cuenta que solo se tomo la parte temporal del cerebro de un solo corte de cada archivo instalado. Se espera que para el momento de implementar por completo este procedimiento se obtenegan mejores resoltados debido a su gran entrenamiento.
 
-## Link 
-Aqui se adjunta el enlace de una explicación un poco más visual del README
-https://drive.google.com/file/d/1bTvCFF5ntHk3nv0OEd1tFROsJPQRiAaY/view?usp=sharing
 
 
